@@ -1,0 +1,30 @@
+{
+  "name": "robert-damon/php-okex-api",
+  "description": "PHP Okex API is an asynchronous PHP library for the Okex API designed to be easy to use.",
+  "keywords": ["Okex","cryptocurrency","Rest"],
+  "license": "MIT",
+  "repositories": [ {
+    "type": "vcs",
+    "url": "https://github.com/robert-damon/php-okex-api"
+  }],
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ratchet/pawl": "^0.3.0",
+    "react/socket": "^1.0 || ^0.8 || ^0.7",
+    "ratchet/rfc6455": "^0.2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6",
+    "codacy/coverage": "dev-master"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "minimum-stability": "stable"
+  },
+  "autoload": {
+    "classmap": [
+      "OKCoin.php"
+    ]
+  }
+}
